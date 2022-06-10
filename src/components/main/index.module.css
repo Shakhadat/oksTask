@@ -241,6 +241,10 @@
   display: block;
 }
 
+.main_container .main_content_container .allProducts .productCard:hover .hoverbox ul li img {
+  cursor: pointer;
+}
+
 .main_container .main_content_container .allProducts .productCard .itemDiscount {
   position: absolute;
   width: 80px;

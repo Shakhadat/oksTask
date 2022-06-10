@@ -24,6 +24,16 @@
   padding: 33px 23px;
 }
 
+.footer_container .main_footer .leftFooter {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_container .main_footer .rightfooter {
+  width: 37%;
+}
+
 .footer_container .main_footer ul {
   list-style-type: none;
   margin: 0;

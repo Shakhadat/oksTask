@@ -11,46 +11,51 @@ export default function(){
     return(
         <div className={styles.footer_container}>
             <div className={styles.main_footer}>
-                <ul>
-                    <li><strong>My Account</strong></li>
-                    <li>My Account</li>
-                    <li>Our stores</li>
-                    <li>Contact us</li>
-                    <li>Career</li>
-                    <li>Specials</li>
-                </ul>
-                <ul>
-                    <li><strong>Help & Guide</strong></li>
-                    <li>Help Center</li>
-                    <li>How to Buy</li>
-                    <li>Shipping & Delivery</li>
-                    <li>Product Policy</li>
-                    <li>How to Return</li>
-                </ul>
-                <ul>
-                    <li><strong>Categories</strong></li>
-                    <li>House Plants</li>
-                    <li>Potter Plants</li>
-                    <li>Seeds</li>
-                    <li>Small Plants</li>
-                    <li>Accessories</li>
-                </ul>
+                <div className={styles.leftFooter}>
+                    <ul>
+                        <li><strong>My Account</strong></li>
+                        <li>My Account</li>
+                        <li>Our stores</li>
+                        <li>Contact us</li>
+                        <li>Career</li>
+                        <li>Specials</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Help & Guide</strong></li>
+                        <li>Help Center</li>
+                        <li>How to Buy</li>
+                        <li>Shipping & Delivery</li>
+                        <li>Product Policy</li>
+                        <li>How to Return</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Categories</strong></li>
+                        <li>House Plants</li>
+                        <li>Potter Plants</li>
+                        <li>Seeds</li>
+                        <li>Small Plants</li>
+                        <li>Accessories</li>
+                    </ul>
 
-                <ul>
-                    <li><strong>Social Media</strong></li>
-                    <li>
-                        <ul>
-                            <li><img src={facebook} alt="" /></li>
-                            <li><img src={instragram} alt="" /></li>
-                            <li><img src={twitter} alt="" /></li>
-                            <li><img src={linkedin} alt="" /></li>
-                            <li><img src={union} alt="" /></li>
+                </div>
+              <div className={styles.rightfooter}>
+                 <ul>
+                       <li><strong>Social Media</strong></li>
+                       <li>
+                           <ul>
+                               <li><img src={facebook} alt="" /></li>
+                               <li><img src={instragram} alt="" /></li>
+                               <li><img src={twitter} alt="" /></li>
+                               <li><img src={linkedin} alt="" /></li>
+                               <li><img src={union} alt="" /></li>
 
-                        </ul>
-                    </li>
-                    <li><strong>We accept</strong></li>
-                    <li><img src={pay} alt="" /></li>
-                </ul>
+                           </ul>
+                       </li>
+                       <li><strong>We accept</strong></li>
+                       <li><img src={pay} alt="" /></li>
+                   </ul>
+              </div>
+              
             </div>
             <p className={styles.footbottom}>© 2021 GreenShop. All Rights Reserved.</p>
         </div>

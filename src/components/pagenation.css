@@ -1,0 +1,36 @@
+.pagenation{
+    list-style-type: none;
+    display: flex;
+    /* background: red; */
+    position: relative;
+    left: 550px;
+    width: 240px;
+    justify-content: space-between;
+    
+}
+
+.page-item{
+    width: 35px;
+    height: 35px;
+    /* background: #46A358; */
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagenation>.page-item:first-child{
+    background: #46A358;
+}
+.pagenation>.page-item:first-child a{
+    color: white;
+}
+.page-link{
+    font-family: ceraPro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    text-decoration: none;
+}

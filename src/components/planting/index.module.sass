@@ -1,0 +1,129 @@
+.planting_container
+    width: 1200px
+    margin: 8rem auto 0 auto
+    background: #FBFBFB
+    height: 250px
+    box-sizing: border-box
+    display: flex
+    justify-content: space-between
+    padding: 23px
+    .newsletter
+        width: 30%
+        padding: 0 1.5rem 
+        h2
+            font-family: ceraPro
+            font-style: normal
+            font-weight: 700
+            font-size: 18px
+            line-height: 16px
+            color: #3D3D3D
+        p
+            font-family: ceraPro
+            font-style: normal
+            font-weight: 400
+            font-size: 13px
+            line-height: 22px
+            color: #727272
+        form
+            display: flex
+            background: white
+            align-items: center
+            justify-content: center
+            input
+                background: #FFFFFF
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06)
+                border-radius: 6px
+                border: none
+                outline: none
+                width: 265px
+                height: 40px
+                padding: 0 1rem
+                &::placeholder
+                    color: #ACACAC
+                    box-sizing: border-box
+            button 
+                width: 85px
+                height: 40px
+                background: #46A358
+                border-radius: 0px 6px 6px 0px
+                font-family: ceraPro
+                font-style: normal
+                font-weight: 700
+                font-size: 18px
+                line-height: 16px
+                color: white
+                border: none
+                outline: none
+    .plantboxes
+        display: flex
+        align-items: center
+        width: 65%
+        justify-content: space-between
+        .line_plant
+            background: rgba(70, 163, 88, 0.1)
+            height: 187px
+            width: 1px
+        .plantItem
+            display: flex
+            flex-direction: column
+            justify-content: center
+             transition: transform .7s ease-in-out
+            h2
+                font-family: ceraPro
+                font-style: normal
+                font-weight: 700
+                font-size: 17px
+                line-height: 16px
+                color: #3D3D3D
+                margin: 0
+                padding: 1rem 0
+            p
+                font-family: ceraPro
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 22px
+                color: #727272
+                width: 204px
+                margin: 0
+                padding: 0
+            .imgbox_plant
+                position: relative
+                left: 1rem
+                transition: transform .7s ease-in-out
+                img
+                    transition: all 0.3s ease-in-out 0s
+                .plantpic
+                    height: 87px
+                    display: flex
+                    flex-direction: column
+                    align-content: center
+                    justify-content: center
+                    position: relative
+                    &>img:first-child
+                        transition: all 0.3s ease-in-out 0s
+                        width: 61px
+                        height: 46px
+                    &>img:last-child
+                       transition: all 0.3s ease-in-out 0s
+                       width: 55px
+                       height: 48px
+                .bg_colorbox
+                    position: absolute
+                    bottom: 0
+                    left: -20px
+            &:hover
+                h2
+                    color: green
+                .imgbox_plant
+                    img
+                        cursor: default
+                        transform: rotate(360deg)
+                        transition: all 0.3s ease-in-out 0s
+                    .plantpic
+                        img
+                            cursor: default
+                            transform: rotate(360deg)
+                            transition: all 0.3s ease-in-out 0s
+                    
+                

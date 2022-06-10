@@ -9,6 +9,7 @@ import 'swiper/css/pagination';
 import styles from './index.module.sass'
 import React from 'react';
 import 'swiper/css';
+import './slider.css'
 export default function(){
     let arr=[1, 2, 3]
     return(
@@ -19,10 +20,14 @@ export default function(){
                     slidesPerView={1}
                     pagination={{ clickable: true
                        }}
-                    wrapperTag='ul'
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     className={styles.container}
+                    // modules={[Pagination]}
+                    // spaceBetween={40}
+                    // slidesPerView={1}
+                    // navigation
+                    // pagination={{clickable:true}}
                      >
                       {arr.map((item)=>{
                           return(
